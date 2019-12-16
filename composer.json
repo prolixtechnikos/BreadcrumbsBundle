@@ -1,5 +1,5 @@
 {
-    "name": "whiteoctober/breadcrumbs-bundle",
+    "name": "prolix/breadcrumbs-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "description": "A small breadcrumbs bundle for Symfony2",
