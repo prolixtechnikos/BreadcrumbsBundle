@@ -5,11 +5,12 @@ namespace WhiteOctober\BreadcrumbsBundle\Twig\Extension;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use WhiteOctober\BreadcrumbsBundle\Model\Breadcrumbs;
 use WhiteOctober\BreadcrumbsBundle\Model\SingleBreadcrumb;
+use Twig\Extension\AbstractExtension;
 
 /**
  * Provides an extension for Twig to output breadcrumbs
  */
-class BreadcrumbsExtension extends \Twig_Extension
+class BreadcrumbsExtension extends AbstractExtension
 {
     protected $container;
     protected $breadcrumbs;
